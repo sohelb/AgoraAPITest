@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D27EB472452BCD6001610C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27EB462452BCD6001610C5 /* AppDelegate.swift */; };
+		7D27EB492452BCD6001610C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27EB482452BCD6001610C5 /* SceneDelegate.swift */; };
+		7D27EB4B2452BCD6001610C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27EB4A2452BCD6001610C5 /* ViewController.swift */; };
+		7D27EB4E2452BCD6001610C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D27EB4C2452BCD6001610C5 /* Main.storyboard */; };
+		7D27EB502452BCD7001610C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D27EB4F2452BCD7001610C5 /* Assets.xcassets */; };
+		7D27EB532452BCD7001610C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D27EB512452BCD7001610C5 /* LaunchScreen.storyboard */; };
+		7DD1DB982452C17E00B5E9D5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DB972452C17E00B5E9D5 /* Accelerate.framework */; };
+		7DD1DB9A2452C18700B5E9D5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DB992452C18700B5E9D5 /* AudioToolbox.framework */; };
+		7DD1DB9C2452C18F00B5E9D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DB9B2452C18F00B5E9D5 /* AVFoundation.framework */; };
+		7DD1DB9E2452C19600B5E9D5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DB9D2452C19600B5E9D5 /* CoreMedia.framework */; };
+		7DD1DBA02452C19C00B5E9D5 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DB9F2452C19C00B5E9D5 /* CoreML.framework */; };
+		7DD1DBA22452C1A300B5E9D5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DBA12452C1A300B5E9D5 /* CoreTelephony.framework */; };
+		7DD1DBA62452C1DC00B5E9D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DBA52452C1DC00B5E9D5 /* SystemConfiguration.framework */; };
+		7DD1DBA82452C1E200B5E9D5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1DBA72452C1E200B5E9D5 /* VideoToolbox.framework */; };
+		876155067EBC3DD81F9AC4BC /* libPods-AgoraAPITest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9181FE1C3C188F1DE7B381 /* libPods-AgoraAPITest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12E849FF69D6361F10FA17C9 /* Pods-AgoraAPITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraAPITest.release.xcconfig"; path = "Target Support Files/Pods-AgoraAPITest/Pods-AgoraAPITest.release.xcconfig"; sourceTree = "<group>"; };
+		7D27EB432452BCD6001610C5 /* AgoraAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D27EB462452BCD6001610C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D27EB482452BCD6001610C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D27EB4A2452BCD6001610C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D27EB4D2452BCD6001610C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D27EB4F2452BCD7001610C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D27EB522452BCD7001610C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D27EB542452BCD7001610C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD1DB972452C17E00B5E9D5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7DD1DB992452C18700B5E9D5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7DD1DB9B2452C18F00B5E9D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7DD1DB9D2452C19600B5E9D5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7DD1DB9F2452C19C00B5E9D5 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		7DD1DBA12452C1A300B5E9D5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7DD1DBA32452C1B000B5E9D5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7DD1DBA42452C1C800B5E9D5 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		7DD1DBA52452C1DC00B5E9D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7DD1DBA72452C1E200B5E9D5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		8D9181FE1C3C188F1DE7B381 /* libPods-AgoraAPITest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgoraAPITest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F0AE4939D6893EDD375E7F /* Pods-AgoraAPITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraAPITest.debug.xcconfig"; path = "Target Support Files/Pods-AgoraAPITest/Pods-AgoraAPITest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D27EB402452BCD6001610C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD1DB9C2452C18F00B5E9D5 /* AVFoundation.framework in Frameworks */,
+				7DD1DBA82452C1E200B5E9D5 /* VideoToolbox.framework in Frameworks */,
+				7DD1DBA22452C1A300B5E9D5 /* CoreTelephony.framework in Frameworks */,
+				7DD1DBA02452C19C00B5E9D5 /* CoreML.framework in Frameworks */,
+				7DD1DB982452C17E00B5E9D5 /* Accelerate.framework in Frameworks */,
+				7DD1DB9A2452C18700B5E9D5 /* AudioToolbox.framework in Frameworks */,
+				7DD1DBA62452C1DC00B5E9D5 /* SystemConfiguration.framework in Frameworks */,
+				7DD1DB9E2452C19600B5E9D5 /* CoreMedia.framework in Frameworks */,
+				876155067EBC3DD81F9AC4BC /* libPods-AgoraAPITest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D27EB3A2452BCD6001610C5 = {
+			isa = PBXGroup;
+			children = (
+				7D27EB452452BCD6001610C5 /* AgoraAPITest */,
+				7D27EB442452BCD6001610C5 /* Products */,
+				7DD1DB902452C0A700B5E9D5 /* Frameworks */,
+				E426BE778A28F70FCE59E135 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7D27EB442452BCD6001610C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D27EB432452BCD6001610C5 /* AgoraAPITest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D27EB452452BCD6001610C5 /* AgoraAPITest */ = {
+			isa = PBXGroup;
+			children = (
+				7D27EB462452BCD6001610C5 /* AppDelegate.swift */,
+				7D27EB482452BCD6001610C5 /* SceneDelegate.swift */,
+				7D27EB4A2452BCD6001610C5 /* ViewController.swift */,
+				7D27EB4C2452BCD6001610C5 /* Main.storyboard */,
+				7D27EB4F2452BCD7001610C5 /* Assets.xcassets */,
+				7D27EB512452BCD7001610C5 /* LaunchScreen.storyboard */,
+				7D27EB542452BCD7001610C5 /* Info.plist */,
+			);
+			path = AgoraAPITest;
+			sourceTree = "<group>";
+		};
+		7DD1DB902452C0A700B5E9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1DBA72452C1E200B5E9D5 /* VideoToolbox.framework */,
+				7DD1DBA52452C1DC00B5E9D5 /* SystemConfiguration.framework */,
+				7DD1DBA42452C1C800B5E9D5 /* libresolv.tbd */,
+				7DD1DBA32452C1B000B5E9D5 /* libc++.tbd */,
+				7DD1DBA12452C1A300B5E9D5 /* CoreTelephony.framework */,
+				7DD1DB9F2452C19C00B5E9D5 /* CoreML.framework */,
+				7DD1DB9D2452C19600B5E9D5 /* CoreMedia.framework */,
+				7DD1DB9B2452C18F00B5E9D5 /* AVFoundation.framework */,
+				7DD1DB992452C18700B5E9D5 /* AudioToolbox.framework */,
+				7DD1DB972452C17E00B5E9D5 /* Accelerate.framework */,
+				8D9181FE1C3C188F1DE7B381 /* libPods-AgoraAPITest.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E426BE778A28F70FCE59E135 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F0AE4939D6893EDD375E7F /* Pods-AgoraAPITest.debug.xcconfig */,
+				12E849FF69D6361F10FA17C9 /* Pods-AgoraAPITest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D27EB422452BCD6001610C5 /* AgoraAPITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D27EB572452BCD7001610C5 /* Build configuration list for PBXNativeTarget "AgoraAPITest" */;
+			buildPhases = (
+				D5D0B64A87C16EFA24C0A826 /* [CP] Check Pods Manifest.lock */,
+				7D27EB3F2452BCD6001610C5 /* Sources */,
+				7D27EB402452BCD6001610C5 /* Frameworks */,
+				7D27EB412452BCD6001610C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraAPITest;
+			productName = AgoraAPITest;
+			productReference = 7D27EB432452BCD6001610C5 /* AgoraAPITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D27EB3B2452BCD6001610C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = sb;
+				TargetAttributes = {
+					7D27EB422452BCD6001610C5 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D27EB3E2452BCD6001610C5 /* Build configuration list for PBXProject "AgoraAPITest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D27EB3A2452BCD6001610C5;
+			productRefGroup = 7D27EB442452BCD6001610C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D27EB422452BCD6001610C5 /* AgoraAPITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D27EB412452BCD6001610C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D27EB532452BCD7001610C5 /* LaunchScreen.storyboard in Resources */,
+				7D27EB502452BCD7001610C5 /* Assets.xcassets in Resources */,
+				7D27EB4E2452BCD6001610C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5D0B64A87C16EFA24C0A826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraAPITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D27EB3F2452BCD6001610C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D27EB4B2452BCD6001610C5 /* ViewController.swift in Sources */,
+				7D27EB472452BCD6001610C5 /* AppDelegate.swift in Sources */,
+				7D27EB492452BCD6001610C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D27EB4C2452BCD6001610C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D27EB4D2452BCD6001610C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D27EB512452BCD7001610C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D27EB522452BCD7001610C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D27EB552452BCD7001610C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D27EB562452BCD7001610C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D27EB582452BCD7001610C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F0AE4939D6893EDD375E7F /* Pods-AgoraAPITest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6NCKYWDXL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = AgoraAPITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sb.AgoraAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D27EB592452BCD7001610C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E849FF69D6361F10FA17C9 /* Pods-AgoraAPITest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6NCKYWDXL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = AgoraAPITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sb.AgoraAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D27EB3E2452BCD6001610C5 /* Build configuration list for PBXProject "AgoraAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D27EB552452BCD7001610C5 /* Debug */,
+				7D27EB562452BCD7001610C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D27EB572452BCD7001610C5 /* Build configuration list for PBXNativeTarget "AgoraAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D27EB582452BCD7001610C5 /* Debug */,
+				7D27EB592452BCD7001610C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D27EB3B2452BCD6001610C5 /* Project object */;
+}
